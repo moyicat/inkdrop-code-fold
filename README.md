@@ -1,0 +1,1 @@
+Code fold plugin for Inkdrop
