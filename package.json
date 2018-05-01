@@ -1,12 +1,12 @@
 {
-	"name": "code-fold",
-	"main": "./lib/code-fold",
-	"version": "0.0.0",
-	"description": "Code fold plugin for Inkdrop",
-	"keywords": [],
-	"repository": "https://github.com/moyicat/inkdrop-code-fold",
-	"license": "MIT",
-	"engines": {
-		"inkdrop": ">=3.11.0 <4.0.0"
-	}
+  "name": "code-fold",
+  "main": "./lib/code-fold",
+  "version": "1.0.0",
+  "description": "Code fold plugin for Inkdrop",
+  "keywords": [],
+  "repository": "https://github.com/moyicat/inkdrop-code-fold",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": ">=3.11.0 <4.0.0"
+  }
 }
