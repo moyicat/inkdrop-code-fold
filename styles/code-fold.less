@@ -1,3 +1,5 @@
+// From Codemirror
+
 .CodeMirror-foldmarker {
 	color: blue;
 	text-shadow: #b9f 1px 1px 2px, #b9f -1px -1px 2px, #b9f 1px -1px 2px, #b9f -1px 1px 2px;
@@ -17,4 +19,40 @@
 }
 .CodeMirror-foldgutter-folded:after {
 	content: "\25B8";
+}
+
+// Hide Foldmarkder
+
+.CodeMirror-foldmarker {
+	display: none;
+}
+
+// Vertical Align Fold and Line Number
+
+.CodeMirror-gutter-wrapper,
+.CodeMirror-gutter-elt {
+	top: 0;
+	bottom: 0;
+}
+
+.CodeMirror-linenumber,
+.CodeMirror-foldgutter-open,
+.CodeMirror-foldgutter-folded {
+	height: 1.5em; // Follow code line-height
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+// Custom Font Should Not Affect Arrows
+
+.CodeMirror-foldgutter-open,
+.CodeMirror-foldgutter-folded {
+	font-family: monospace;
+}
+
+// Fold Gutter should be wider
+
+.CodeMirror-foldgutter {
+	width: 1em;
 }

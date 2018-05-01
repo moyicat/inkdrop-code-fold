@@ -8,8 +8,5 @@
 	"license": "MIT",
 	"engines": {
 		"inkdrop": ">=3.11.0 <4.0.0"
-	},
-	"dependencies": {
-		"codemirror": "^5.36.0"
 	}
 }
