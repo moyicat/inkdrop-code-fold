@@ -1,0 +1,6 @@
+{
+  "body": {
+    "cmd-r": "codefold:foldAll",
+    "cmd-t": "codefold:unfoldAll"
+  }
+}
