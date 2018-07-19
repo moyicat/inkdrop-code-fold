@@ -1,6 +1,14 @@
 {
-  "body": {
-    "cmd-r": "codefold:foldAll",
-    "cmd-t": "codefold:unfoldAll"
+  ".platform-darwin .CodeMirror": {
+    "cmd-r": "codefold:fold-all",
+    "cmd-t": "codefold:unfold-all"
+  },
+  ".platform-linux .CodeMirror": {
+    "ctrl-r": "codefold:fold-all",
+    "ctrl-t": "codefold:unfold-all"
+  },
+  ".platform-win32 .CodeMirror": {
+    "ctrl-r": "codefold:fold-all",
+    "ctrl-t": "codefold:unfold-all"
   }
 }
