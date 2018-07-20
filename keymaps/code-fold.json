@@ -1,14 +1,14 @@
 {
   ".platform-darwin .CodeMirror": {
-    "cmd-r": "codefold:fold-all",
-    "cmd-t": "codefold:unfold-all"
+    "shift-cmd-e": "code-fold:fold-all",
+    "shift-cmd-r": "code-fold:unfold-all"
   },
   ".platform-linux .CodeMirror": {
-    "ctrl-r": "codefold:fold-all",
-    "ctrl-t": "codefold:unfold-all"
+    "shift-ctrl-e": "code-fold:fold-all",
+    "shift-ctrl-r": "code-fold:unfold-all"
   },
   ".platform-win32 .CodeMirror": {
-    "ctrl-r": "codefold:fold-all",
-    "ctrl-t": "codefold:unfold-all"
+    "shift-ctrl-e": "code-fold:fold-all",
+    "shift-ctrl-r": "code-fold:unfold-all"
   }
 }
