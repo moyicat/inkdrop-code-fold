@@ -5,4 +5,5 @@
 ### Shortcuts
 
 Shift + Command + e / Shift + Control + e: Fold all
+
 Shift + Command + r / Shift + Control + r: Unfold all
