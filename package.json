@@ -1,7 +1,7 @@
 {
   "name": "code-fold",
   "main": "./lib/code-fold",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Code fold plugin for Inkdrop",
   "keywords": [],
   "repository": "https://github.com/moyicat/inkdrop-code-fold",
